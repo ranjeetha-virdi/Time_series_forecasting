@@ -26,6 +26,7 @@ The first column is date and the data is recorded every 15 mins. MT_001,MT_002..
      - Trainer object to set the hyperparameters
 #### Step 2: Load the data into a Pandas DataFrame and visualize the data for 10 households for only two weeks. The vizulisation is a shown below. Here we can see that each household 
 has a different consumption pattern.
+
 ![data_head](https://github.com/ranjeetha-virdi/Time_series_forecasting/assets/81987445/7dab47b2-958b-4227-905e-3c198814a632)
 
 
