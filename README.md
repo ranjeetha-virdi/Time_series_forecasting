@@ -31,13 +31,13 @@ The first column is date and the data is recorded every 15 mins. MT_001,MT_002..
 
 ![time_series_power](https://github.com/ranjeetha-virdi/Time_series_forecasting/assets/81987445/42eb4f54-e7ee-4040-9062-202450ecd6b1)
 
-#### step 3: We will transpose the data so that MT_001 becomes the new index. Now we have only 370 observations and 
-####140257 columns.
+#### step 3: We will transpose the data so that MT_001 becomes the new index. Now we have only 370 observations and 140257 columns.
 
 ![data_transpose](https://github.com/ranjeetha-virdi/Time_series_forecasting/assets/81987445/34831d14-fa25-4279-8dcd-6f60f6fdc0ff)
 
 #### Step 4: We will convert the string index values i.e MT_001 to code ie 1, so we will have integer values 0 to 369 for index.
 Our aim is to create this target time series, that will treat every time series as a different model internally.
 It is going to create a global model but its going to learn individual time series as well, thats why we need to feed additional info to the model.
+![index](https://github.com/ranjeetha-virdi/Time_series_forecasting/assets/81987445/b74e49b1-9239-49f8-97b9-1d0faf4b18af)
 
-![index](https://github.com/ranjeetha-virdi/Time_series_forecasting/assets/81987445/50b41287-c021-4ba6-9515-360b05c5c56e)
+
