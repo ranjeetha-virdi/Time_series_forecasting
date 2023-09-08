@@ -40,4 +40,8 @@ Our aim is to create this target time series, that will treat every time series 
 It is going to create a global model but its going to learn individual time series as well, thats why we need to feed additional info to the model.
 ![index](https://github.com/ranjeetha-virdi/Time_series_forecasting/assets/81987445/b74e49b1-9239-49f8-97b9-1d0faf4b18af)
 
+#### Step 5: We will split the data into Train and Test dataset(note: never schuffel time series data as order of the data is very important for us)
+We will split the data, we know that the data is recorded in an interval of 15 mins. Therefore we have four observations per hour, hence for 24 hrs we have around 96 observations. We want to make prediction for 7 days hence prediction length of 96*7=672.
+
+
 
