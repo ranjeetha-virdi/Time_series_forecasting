@@ -24,10 +24,11 @@ The first column is date and the data is recorded every 15 mins. MT_001,MT_002..
      - Matplotlib to vizualize the dataset
      - deepAREstimator package of GluonTS for modelling
      - Trainer object to set the hyperparameters
-#### Step 2: Load the data into a Pandas DataFrame and visualize the data for 10 households for only two weeks.
+#### Step 2: Load the data into a Pandas DataFrame and visualize the data for 10 households for only two weeks. The vizulisation is a shown below.
 
 
 ![time_series_power](https://github.com/ranjeetha-virdi/Time_series_forecasting/assets/81987445/42eb4f54-e7ee-4040-9062-202450ecd6b1)
 
+#### step 3: 
 
 
