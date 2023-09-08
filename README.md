@@ -57,6 +57,7 @@ We will set for say 7 households, we set the training and test data set, hence w
 We will train the estimator will train data. For each category it will build an individual predictor internally but what we finally get is a single global predictor. So once we have trained our estimator we will import make_evaluation_predictions from
 from gluonts.evaluation.backtest 
 #### Step 7: We will visualise our output as timeseries and forecast values and below is the forcast for one household.
-![index](https://github.com/ranjeetha-virdi/Time_series_forecasting/assets/81987445/3aaf0985-4716-42ee-921b-6b03da7ff8ee)
+![index](https://github.com/ranjeetha-virdi/Time_series_forecasting/assets/81987445/f3e38fdc-2062-48f5-a2b5-3624e7c3b679)
+
 
 
