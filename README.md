@@ -12,3 +12,12 @@ The best thing about DeepAR is that it can work to create a single global model 
 It creates a single global model on a large number of related time series and it has a builtin special treatment where time series magnitude varies across
 each time series differently.
 
+### About Libraries and Dataset:
+We will first install mxnet to do deep learning for DeepAR and GluonTS a Python library for quick prototyping of Deep Learning models for Time Series applications.
+We can install GluonTS both GPU or CPU version. Here we are using CPU version.
+The data set is downloaded from UC Irvine Machine Learning Repo https://archive.ics.uci.edu/dataset/321/electricityloaddiagrams20112014. It is time series 
+data from 2011 to 2014. The data has energy usage for 370 customers and each customer is a seperate time series.
+The first column is date and the data is recorded every 15 mins.
+
+
+
