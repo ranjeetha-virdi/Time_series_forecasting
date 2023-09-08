@@ -17,7 +17,16 @@ We will first install mxnet to do deep learning for DeepAR and GluonTS a Python 
 We can install GluonTS both GPU or CPU version. Here we are using CPU version.
 The data set is downloaded from UC Irvine Machine Learning Repo https://archive.ics.uci.edu/dataset/321/electricityloaddiagrams20112014. It is time series 
 data from 2011 to 2014. The data has energy usage for 370 customers and each customer is a seperate time series.
-The first column is date and the data is recorded every 15 mins.
+The first column is date and the data is recorded every 15 mins. MT_001,MT_002...MT_370 are representation of individual household and readings for them.
+
+#### Step 1: Importing libraries:  
+     - Pandas to get the data into DataFrame 
+     - Matplotlib to vizualize the dataset
+     - deepAREstimator package of GluonTS for modelling
+     - Trainer object to set the hyperparameters
+#### Step 2: Load the data into a Pandas DataFrame and visualize the data for 10 households for only two weeks.
+
+
 
 
 
