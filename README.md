@@ -43,5 +43,6 @@ It is going to create a global model but its going to learn individual time seri
 #### Step 5: We will split the data into Train and Test dataset(note: never schuffel time series data as order of the data is very important for us)
 We will split the data, we know that the data is recorded in an interval of 15 mins. Therefore we have four observations per hour, hence for 24 hrs we have around 96 observations. We want to make prediction for 7 days hence prediction length of 96*7=672.
 
+![index](https://github.com/ranjeetha-virdi/Time_series_forecasting/assets/81987445/dafadcaa-73f9-41ed-a1e1-0999086ba79c)
 
 
